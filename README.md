@@ -1,4 +1,7 @@
 # Parallel Distributed Graph Processing Algorithm
+NetID: kjhave3@uic.edu
+Kirtan Jhaveri
+youtubevideo: https://youtu.be/yNTtfDlJVaI
 
 ## Table of Contents
 
