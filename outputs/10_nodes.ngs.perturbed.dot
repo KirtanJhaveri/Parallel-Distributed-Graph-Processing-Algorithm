@@ -1,0 +1,12 @@
+digraph "Perturbed Net Graph with 10 nodes" {
+edge ["class"="link-class"]
+"0" ["color"="red","label"=<<b>Init</b>>,"fontcolor"="#1020d0"]
+"0" -> "2" ["weight"="4.0"]
+"0" -> "1" ["weight"="2.0"]
+"2" -> "10" ["weight"="3.0"]
+"1" -> "8" ["weight"="4.0"]
+"5" -> "9" ["weight"="5.0"]
+"10" -> "6" ["weight"="3.0"]
+"6" -> "5" ["weight"="7.0"]
+"3" -> "7" ["weight"="6.0"]
+}
