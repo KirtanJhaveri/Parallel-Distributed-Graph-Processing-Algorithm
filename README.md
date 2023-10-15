@@ -1,7 +1,8 @@
 # Parallel Distributed Graph Processing Algorithm
-NetID: kjhave3@uic.edu
-Kirtan Jhaveri
-youtubevideo: https://youtu.be/yNTtfDlJVaI
+- NetID: kjhave3@uic.edu
+- Name: Kirtan Jhaveri
+- youtube video: 
+https://youtu.be/yNTtfDlJVaI
 
 ## Table of Contents
 
@@ -11,7 +12,6 @@ youtubevideo: https://youtu.be/yNTtfDlJVaI
 - [Input](#input)
 - [Output](#output)
 - [Implementation Details](#implementation-details)
-- [Dependencies](#dependencies)
 
 ## Introduction
 
@@ -54,16 +54,22 @@ The Main invocation file is:
 `ProjectMain.scala`
 The code takes in 10 arguments in the run configuration(in intellij), below are the arguments set in my run config please change them according to path on your system **(Note: This Project uses the local filesystem NOT HDFS)**:
 
-`C:\Users\PATH_TO\NetGameSim\outputs\40_nodes.ngs` 
-`C:\Users\PATH_TO\NetGameSim\outputs\40_nodes.ngs.perturbed`
-`C:\Users\PATH_TO\NetGameSim\outputs\output_nodes.txt`
-`C:\Users\PATH_TO\CS441\NetGameSim\src\main\resources\output_nodes`
-`C:\Users\PATH_TO\CS441\NetGameSim\outputs\output_edges.txt`
-`C:\Users\PATH_TO\CS441\NetGameSim\src\main\resources\output_edges`
-`C:\Users\PATH_TO\CS441\NetGameSim\src\main\resources\final`
-`C:\Users\PATH_TO\CS441\NetGameSim\src\main\resources\final\part-00000`
-`C:\Users\PATH_TO\CS441\NetGameSim\outputs\40_nodes.ngs.yaml`
-`C:\Users\PATH_TO\CS441\NetGameSim\outputs`
+**Using intellij run config**:
+
+`PATH_TO\NetGameSim\outputs\40_nodes.ngs` 
+`PATH_TO\NetGameSim\outputs\40_nodes.ngs.perturbed`
+`PATH_TO\NetGameSim\outputs\output_nodes.txt`
+`PATH_TO\CS441\NetGameSim\src\main\resources\output_nodes`
+`PATH_TO\CS441\NetGameSim\outputs\output_edges.txt`
+`PATH_TO\CS441\NetGameSim\src\main\resources\output_edges`
+`PATH_TO\CS441\NetGameSim\src\main\resources\final`
+`PATH_TO\CS441\NetGameSim\src\main\resources\final\part-00000`
+`PATH_TO\CS441\NetGameSim\outputs\40_nodes.ngs.yaml`
+`PATH_TO\CS441\NetGameSim\outputs`
+
+**Using SBT**:
+
+`SBT "run outputs\300_nodes.ngs outputs\300_nodes.ngs.perturbed outputs\output_nodes.txt src\main\resources\output_nodes outputs\output_edges.txt src\main\resources\output_edges src\main\resources\final src\main\resources\final\part-00000 outputs\40_nodes.ngs.yaml outputs"`
 
 ## Output
 
