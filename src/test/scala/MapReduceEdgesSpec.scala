@@ -10,8 +10,8 @@ import java.nio.file.{Files, Paths}
 
 class MapReduceEdgesSpec extends AnyFlatSpec with Matchers {
   "Map" should "generate a non-empty file at the specified output path" in {
-    val outputFilePath = "C:\\Users\\kirta\\Desktop\\CS441\\NetGameSim\\src\\main\\resources\\output_edges\\part-00000"
-
+//    val outputFilePath = "C:\\Users\\kirta\\Desktop\\CS441\\NetGameSim\\src\\main\\resources\\output_edges\\part-00000"
+    val outputFilePath = "src/main/resources/output_edges/part-00000"
     // Call your map function that generates the output file
     // Map.mapFunction(/* Pass required parameters here */)
 

@@ -7,8 +7,7 @@ import java.nio.file.{Files, Paths}
 class MapReduceCheckSpec extends AnyFlatSpec with Matchers {
 
   "runMapReduceCheck" should "generate a non-empty output file at the specified output path" in {
-    val outputFilePath = "C:\\Users\\kirta\\Desktop\\CS441\\NetGameSim\\src\\main\\resources\\final\\part-00000"
-
+    val outputFilePath = "src/main/resources/final/part-00000"
     // Call your map function that generates the output file
     // Map.mapFunction(/* Pass required parameters here */)
 

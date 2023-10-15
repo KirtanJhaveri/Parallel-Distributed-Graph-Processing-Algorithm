@@ -30,7 +30,7 @@ lazy val commonDependencies = Seq(
 lazy val root = (project in file("."))
   .settings(
     scalaVersion := "3.2.2",
-    name := "NetGameSim",
+    name := "Map_reduce_cs_441",
     idePackagePrefix := Some("com.lsc"),
     libraryDependencies ++= commonDependencies.map(_.exclude("org.slf4j", "slf4j-log4j12"))
   ).aggregate(NetModelGenerator,GenericSimUtilities).dependsOn(NetModelGenerator)

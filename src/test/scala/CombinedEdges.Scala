@@ -7,7 +7,7 @@ class CombinedEdges extends AnyFlatSpec with Matchers {
 
   "ProcessActionObjects" should "generate a non-empty file at the specified output path" in {
 
-    val outputFilePath = "C:\\Users\\kirta\\Desktop\\CS441\\NetGameSim\\outputs\\output_edges.txt"
+    val outputFilePath = "outputs/output_edges.txt"
 
     // Call your map function that generates the output file
     // Map.mapFunction(/* Pass required parameters here */)

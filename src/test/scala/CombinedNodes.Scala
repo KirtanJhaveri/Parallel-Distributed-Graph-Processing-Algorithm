@@ -7,7 +7,7 @@ class CombinedNodes extends AnyFlatSpec with Matchers {
 
   "ProcessNodes" should "generate a non-empty file at the specified output path" in {
     
-    val outputFilePath = "C:\\Users\\kirta\\Desktop\\CS441\\NetGameSim\\outputs\\output_nodes.txt"
+    val outputFilePath = "outputs/output_nodes.txt"
 
     // Call your map function that generates the output file
     // Map.mapFunction(/* Pass required parameters here */)

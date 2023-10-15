@@ -31,8 +31,7 @@ object CombinedParser {
     val inputPath = args(0)
     val inputPath_Yaml = args(1)
 //    logger.info(s"$inputPath_Yaml")
-//    val accessKey = "AKIAVA5OWDT4WMUP5XGN"
-//    val secretKey = "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"
+
 
     // Parsing data from the first file
     try {

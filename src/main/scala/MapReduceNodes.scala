@@ -21,7 +21,7 @@ object MapReduceNodes:
 
     override def map(key: LongWritable, value: Text, output: OutputCollector[IntWritable,Text], reporter: Reporter): Unit = {
       try {
-        logger.info("Map Started")
+//        logger.info("Map Started")
         // Split input data into nodes
         val nodes = value.toString.split(";")
 
