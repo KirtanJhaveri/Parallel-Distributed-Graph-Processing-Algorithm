@@ -1,0 +1,8 @@
+Student - Kirtan Jhaveri
+
+
+Great execution! You show a good understanding of map/reduce and are able to implement it well. Good code, video and documentation.
+
+
+
+Grade = 15%
